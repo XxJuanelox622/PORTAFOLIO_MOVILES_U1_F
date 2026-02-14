@@ -114,19 +114,27 @@ Sirve para entender cómo se declaran variables y cómo funcionan las estructura
 
   ---
 
-##  Programa 17 – Suma con salida
-* **Que hace:** demuestra como salir de varios ciclos de repeticion al mismo tiempo usando etiquetas
-* **Estructura:** utiliza una **etiqueta de ciclo** (label) junto con la instruccion `break` para saltar fuera de dos bucles `for` anidados
-
+  ##  Programa 17 – Salida de ciclos for
+* **Que hace:** demuestra como salir de varios ciclos de repeticion al mismo tiempo utilizando una etiqueta
+* **Estructura:** usa ciclos **for** anidados junto con una **label** y la instruccion `break` para salir completamente cuando se cumple una condicion
   ---
 
-  ##  Programa 18 – Suma con salida
+##  Programa 18 – Tabla de multi 0-9
 * **Que hace:** genera una tabla de multiplicar simplificada que va especificamente del 0 al 9
 * **Estructura:** aplica un ciclo **for** basico que multiplica el numero ingresado por el contador en cada vuelta
   ---
 
-  ##  Programa 19 – Suma con salida
-* **Que hace:** analiza un numero entero para decir si es un numero primo o no lo es
-* **Estructura:** crea una **funcion personalizada** llamada `cousin` que usa operaciones de modulo `%` y ciclos para buscar divisores
+##  Programa 19 – Verificacion de numero primo
+* **Que hace:** recibe un numero y determina si es primo realizando pruebas de division sucesivas
+* **Estructura:** emplea una funcion personalizada con condiciones **if** y un ciclo **for** que busca divisores exactos usando el operador `%`
+  ---
 
+##  Programa 20 – Factorial v1 
+* **Que hace:** calcula el resultado factorial de un numero ingresado ya sea mediante codigo directo 
+* **Estructura:** utiliza ciclo **for** que realizan multiplicaciones acumulativas descendentes desde el numero base hasta el uno
+  ---
+
+  ##  Programa 20 – Factorial v2
+* **Que hace:** calcula el factorial de un numero ingresado utilizando una funcion que retorna el resultado
+* **Estructura:** define una funcion que usa un ciclo **for** descendente para realizar multiplicaciones acumulativas y luego retorna el valor al `main`
   ---
